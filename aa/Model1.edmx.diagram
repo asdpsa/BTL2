@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c2a521e1669c4ff89d9980101888b822" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.ChiTietHDB" Width="1.5" PointX="5.875" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.ChiTietHDN" Width="1.5" PointX="0.625" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.Hoadonban" Width="1.5" PointX="8.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.Hoadonnhap" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.KhachHang" Width="1.5" PointX="8.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.NhaCungCap" Width="1.5" PointX="0.625" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.NhanVien" Width="1.5" PointX="5.875" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.sysdiagram" Width="1.5" PointX="15.75" PointY="2.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="QLCuaHangMayTinhModel.ThongTinMayTinh" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="QLCuaHangMayTinhModel.FK_ChiTietHDB_Hoadonban" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCuaHangMayTinhModel.FK_ChiTietHDB_ThongTinMayTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCuaHangMayTinhModel.FK_ChiTietHDN_Hoadonnhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCuaHangMayTinhModel.FK_ChiTietHDN_ThongTinMayTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCuaHangMayTinhModel.FK__Hoadonban__MaKH__30F848ED" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="QLCuaHangMayTinhModel.FK__Hoadonban__MaNV__300424B4" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="QLCuaHangMayTinhModel.FK__Hoadonnhap__MaNV__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCuaHangMayTinhModel.FK__ThongTinM__MaNCC__2A4B4B5E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
